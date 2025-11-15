@@ -170,7 +170,7 @@ app.get("/", (req, res) => {
         <div class="content">
             <div class="section">
                 <h2>📡 Base URL</h2>
-                <div class="url" id="baseUrl">https://backendbranimuali-production.up.railway.app/</div>
+                <div class="url" id="baseUrl">https://backendbranimuali-production.up.railway.app</div>
                 <button onclick="changeBaseUrl()">Ubah Base URL</button>
             </div>
 
@@ -256,7 +256,7 @@ app.get("/", (req, res) => {
     </div>
 
     <script>
-        let baseUrl = 'https://backendbranimuali-production.up.railway.app/';
+        let baseUrl = 'https://backendbranimuali-production.up.railway.app';
 
         function changeBaseUrl() {
             const newUrl = prompt('Masukkan Base URL baru:', baseUrl);
@@ -379,6 +379,6 @@ app.get("/", (req, res) => {
 </html>`);
 });
 
-const PORT = process.env.PORT || "https://backendbranimuali-production.up.railway.app/";
+const PORT = process.env.PORT || "https://backendbranimuali-production.up.railway.app";
 
 app.listen(PORT, () => console.log(`${PORT}`));
