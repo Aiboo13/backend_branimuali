@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("https://backendbranimuali-production.up.railway.app/api/umkm", umkmRoutes);
+app.use("api/umkm", umkmRoutes);
 
 // Serve API Test Interface at root
 app.get("/", (req, res) => {
