@@ -204,7 +204,7 @@ app.get("/", (req, res) => {
                         <span class="method get">GET</span>
                         <span>Ambil Semua UMKM</span>
                     </div>
-                    <div class="url">/api/umkm</div>
+                    <div class="url">https://backendbranimuali-production.up.railway.app/api/umkm</div>
                     <button onclick="testGetAll()">Test</button>
                     <div class="result" id="result-getAll" style="display:none;"></div>
                 </div>
@@ -214,7 +214,7 @@ app.get("/", (req, res) => {
                         <span class="method post">POST</span>
                         <span>Tambah UMKM Baru</span>
                     </div>
-                    <div class="url">/api/umkm</div>
+                    <div class="url">https://backendbranimuali-production.up.railway.app/api/umkm</div>
                     <button onclick="testAddUMKM()">Test dengan Sample Data</button>
                     <div class="result" id="result-add" style="display:none;"></div>
                 </div>
@@ -224,7 +224,7 @@ app.get("/", (req, res) => {
                         <span class="method put">PUT</span>
                         <span>Approve UMKM</span>
                     </div>
-                    <div class="url">/api/umkm/:id/approve</div>
+                    <div class="url">https://backendbranimuali-production.up.railway.app/api/umkm/:id/approve</div>
                     <input type="number" id="approveId" placeholder="ID UMKM">
                     <button onclick="testApprove()">Test</button>
                     <div class="result" id="result-approve" style="display:none;"></div>
@@ -235,7 +235,7 @@ app.get("/", (req, res) => {
                         <span class="method put">PUT</span>
                         <span>Reject UMKM</span>
                     </div>
-                    <div class="url">/api/umkm/:id/reject</div>
+                    <div class="url">https://backendbranimuali-production.up.railway.app/api/umkm/:id/reject</div>
                     <input type="number" id="rejectId" placeholder="ID UMKM">
                     <button onclick="testReject()">Test</button>
                     <div class="result" id="result-reject" style="display:none;"></div>
@@ -246,7 +246,7 @@ app.get("/", (req, res) => {
                         <span class="method delete">DELETE</span>
                         <span>Hapus UMKM</span>
                     </div>
-                    <div class="url">/api/umkm/:id</div>
+                    <div class="url">https://backendbranimuali-production.up.railway.app/api/umkm/:id</div>
                     <input type="number" id="deleteId" placeholder="ID UMKM">
                     <button onclick="testDelete()">Test</button>
                     <div class="result" id="result-delete" style="display:none;"></div>
